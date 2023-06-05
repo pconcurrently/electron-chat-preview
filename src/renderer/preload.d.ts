@@ -5,6 +5,12 @@ declare global {
   interface Window {
     electron: ElectronHandler;
   }
+
+  interface process {
+    parentPort: {
+
+    }
+  }
 }
 
 export {};
